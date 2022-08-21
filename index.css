@@ -1,0 +1,26 @@
+.Welcome {
+    background: url(/leafbody.png);
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+}
+
+.welcome__content {
+    position: absolute;
+    text-align: left;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 210px;
+}
+
+
+.selling-points__content{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 210px;
+}
+

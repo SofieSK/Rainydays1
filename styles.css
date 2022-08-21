@@ -1,0 +1,126 @@
+* { margin: 0; padding: 0;}
+
+
+
+body{
+    background-color: white;
+    font-family: 'open sans', Verdana, sans-serif;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+header {
+    background-image: url(/images/leaf.png);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100px;
+}
+
+
+.Welcome {
+    background: url(/images/leafbody.png);
+    min-height: 70vh;
+    position: relative;
+    background-position: center bottom;
+    top: 25%;
+    bottom: 40%;
+}
+
+.selling-points__content h2 {
+    text-align: left;
+    color: white;
+}
+
+h1 {
+    font-family: 'open sans', Verdana, sans-serif;
+    color: white; 
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+.img-logo {
+    position: relative;
+    background-color: white;
+    border: 1px solid #000;
+    max-width: 400px;
+    height: 200px;
+    margin-left: 35%;
+    margin-top: 0%;
+}
+
+footer{
+    position: absolute;
+    border: 1px solid #000;
+    bottom: 0px;
+    width: 100%;
+    height: 1cm;
+    text-align: center;
+    background-color: white;
+}
+
+header {grid-area: header; }
+main { grid-area: main; } 
+.home-section:nth-child(1)
+.home-section:nth-child(2)
+.home-section:nth-child(3)
+.home-section:nth-child(4)
+footer {grid-area: fotter; }
+
+body {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'main main'
+    'footer fotter'
+}
+
+
+
+
+main {
+    display: grid;
+}
+
+
+.img-one {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    background-color: white;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.img-two {
+    position: absolute;
+    top: 50%;
+    right: 18%;
+    background-color: white;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.img-three {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    background-color: white;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.selling-points__content, p {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
